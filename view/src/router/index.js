@@ -9,6 +9,9 @@ import Divd from '@/pages/divider/Divd'
 import Cel from '@/pages/cell/Cel'
 import Meu from '@/pages/menu/Meu'
 import Tab from '@/pages/tabs/Tab'
+import Drop from '@/pages/dropdown/Drop'
+import Paging from '@/pages/paging/Paging'
+import Bread from '@/pages/bread/Bread'
 
 Vue.use(Router)
 
@@ -58,6 +61,21 @@ export default new Router({
       path: '/tabs',
       name: 'Tab',
       component: Tab
+    },
+    {
+      path: '/dropdown',
+      name: 'Drop',
+      component: Drop
+    },
+    {
+      path: '/paging',
+      name: 'Paging',
+      component: Paging
+    },
+    {
+      path: '/bread',
+      name: 'Bread',
+      component: Bread
     }
   ]
 })

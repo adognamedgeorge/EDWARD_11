@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding: 10px;">
     <h4>
       value 与 TabPane 的 name 对应，用于标识当前激活的是哪一项，name 值默认从 0 开始，默认激活第一项。
       可以使用 v-model 双向绑定数据。
@@ -47,12 +47,23 @@
       <tab-pane label="标签2" v-if="tab1">eeee</tab-pane>
       <tab-pane label="标签3" v-if="tab2">fff</tab-pane>
     </Tabs>
+    <br>
+    <Divider orientation="left">分割线</Divider>
+    <tab-render></tab-render>
+    <Divider orientation="right">分割线</Divider>
+    <tab-slot></tab-slot>
   </div>
 </template>
 
 <script>
+import TabRender from './components/Render'
+import TabSlot from './components/Slot'
 export default {
   name: 'Tab',
+  components: {
+    TabRender,
+    TabSlot
+  },
   data () {
     return {
       tab0: true,
