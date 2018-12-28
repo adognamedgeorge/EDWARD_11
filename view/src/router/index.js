@@ -12,6 +12,9 @@ import Tab from '@/pages/tabs/Tab'
 import Drop from '@/pages/dropdown/Drop'
 import Paging from '@/pages/paging/Paging'
 import Bread from '@/pages/bread/Bread'
+import Badg from '@/pages/badge/Badg'
+import Anch from '@/pages/anchor/Anch'
+import Ste from '@/pages/steps/Ste'
 
 Vue.use(Router)
 
@@ -76,6 +79,21 @@ export default new Router({
       path: '/bread',
       name: 'Bread',
       component: Bread
+    },
+    {
+      path: '/badge',
+      name: 'Badg',
+      component: Badg
+    },
+    {
+      path: '/anchor',
+      name: 'Anch',
+      component: Anch
+    },
+    {
+      path: '/steps',
+      name: 'Ste',
+      component: Ste
     }
   ]
 })

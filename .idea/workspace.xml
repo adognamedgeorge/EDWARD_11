@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60d357fb-71ea-4d02-b740-6ba9b9482eb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/view/src/pages/bread/Bread.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/dropdown/Drop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/dropdown/components/Hover.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/dropdown/components/Placement.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/paging/Paging.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/tabs/components/Render.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/src/pages/tabs/components/Slot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/pages/anchor/Anch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/pages/badge/Badg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/pages/badge/components/Status.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/pages/badge/components/Type.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/src/pages/steps/Ste.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/src/pages/tabs/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/pages/tabs/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/src/pages/card/Car.vue" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/pages/card/Car.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/view/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,26 +26,47 @@
       <file leaf-file-name="Car.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/src/pages/card/Car.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="2188">
+              <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paging.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/src/pages/paging/Paging.vue">
+      <file leaf-file-name="Badg.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/pages/badge/Badg.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="286">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#1359#1403#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bread.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/src/pages/bread/Bread.vue">
+      <file leaf-file-name="Anch.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/pages/anchor/Anch.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="264">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/src/pages/row/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ste.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/src/pages/steps/Ste.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -55,8 +74,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -67,7 +86,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="442">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -127,7 +146,6 @@
         <option value="$PROJECT_DIR$/view/src/main.js" />
         <option value="$PROJECT_DIR$/view/.babelrc" />
         <option value="$PROJECT_DIR$/view/src/pages/home/Home.vue" />
-        <option value="$PROJECT_DIR$/view/src/pages/row/Home.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/row/components/Response.vue" />
         <option value="$PROJECT_DIR$/view/build/vue-loader.conf.js" />
         <option value="$PROJECT_DIR$/view/build/webpack.base.conf.js" />
@@ -136,7 +154,6 @@
         <option value="$PROJECT_DIR$/view/src/pages/layout/components.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/layout/Lay.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/layout/components/Sider.vue" />
-        <option value="$PROJECT_DIR$/view/src/pages/card/Car.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/collapse/Coll.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/collapse/components/Nest.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/collapse/components/Simple.vue" />
@@ -154,8 +171,15 @@
         <option value="$PROJECT_DIR$/view/src/pages/dropdown/Drop.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/dropdown/components/Placement.vue" />
         <option value="$PROJECT_DIR$/view/src/pages/paging/Paging.vue" />
-        <option value="$PROJECT_DIR$/view/src/router/index.js" />
         <option value="$PROJECT_DIR$/view/src/pages/bread/Bread.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/card/Car.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/badge/components/Status.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/badge/Badg.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/badge/components/Type.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/anchor/Anch.vue" />
+        <option value="$PROJECT_DIR$/view/src/pages/row/Home.vue" />
+        <option value="$PROJECT_DIR$/view/src/router/index.js" />
+        <option value="$PROJECT_DIR$/view/src/pages/steps/Ste.vue" />
       </list>
     </option>
   </component>
@@ -252,7 +276,7 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="bread" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EDWARD_11" type="b2602c69:ProjectViewProjectNode" />
@@ -303,12 +327,12 @@
       <updated>1545378358538</updated>
       <workItem from="1545378360324" duration="2057000" />
       <workItem from="1545380459269" duration="65586000" />
-      <workItem from="1545891409316" duration="6716000" />
+      <workItem from="1545891409316" duration="25852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74359000" />
+    <option name="totallyTimeSpent" value="93495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -345,51 +369,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/build/webpack.base.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/pages/dropdown/Drop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#939#981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/src/pages/row/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -503,6 +482,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="n#Header#0;n#Layout#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#Card#0;n#Content#0;n#Layout#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1155#1161#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,24 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/pages/row/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="137" column="11" lean-forward="true" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,6 +582,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2025#2068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/pages/card/Car.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/src/pages/paging/Paging.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -664,20 +627,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/bread/Bread.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/card/Car.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2188">
+          <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/badge/components/Status.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/badge/components/Type.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/anchor/Anch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/row/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/src/pages/badge/Badg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1359#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/src/pages/bread/Bread.vue">
+    <entry file="file://$PROJECT_DIR$/view/src/pages/steps/Ste.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="390">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>

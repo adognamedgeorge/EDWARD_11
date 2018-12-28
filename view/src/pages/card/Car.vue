@@ -79,9 +79,12 @@ export default {
           rate: 9.3
         }
       ],
-      randomMovieList: []
+      randomMovieList: [],
+      Arr: [1, 2, 3]
     }
   },
+  // random() 方法可返回介于 0 ~ 1 之间的一个随机数。
+  // 返回小于等于x的最大整数:Math.floor(1.6);以上实例将输出：1
   methods: {
     changeLimit () {
       function getArrayItems (arr, num) {
@@ -92,16 +95,19 @@ export default {
         const arr2 = []
         for (let i = 0; i < num; i++) {
           if (arr1.length > 0) {
+            console.log(arr1)
             const arrIndex = Math.floor(Math.random() * arr1.length)
+            console.log(arrIndex)
             arr2[i] = arr1[arrIndex]
             arr1.splice(arrIndex, 1)
+            console.log(arr1)
           } else {
             break
           }
         }
         return arr2
       }
-      this.randomMovieList = getArrayItems(this.movieList, 3)
+      this.randomMovieList = getArrayItems(this.Arr, 1)
     }
   },
   mounted () {
