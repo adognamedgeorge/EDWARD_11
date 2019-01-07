@@ -15,6 +15,7 @@ import Bread from '@/pages/bread/Bread'
 import Badg from '@/pages/badge/Badg'
 import Anch from '@/pages/anchor/Anch'
 import Ste from '@/pages/steps/Ste'
+import Inp from '@/pages/input/Inp'
 
 Vue.use(Router)
 
@@ -94,6 +95,11 @@ export default new Router({
       path: '/steps',
       name: 'Ste',
       component: Ste
+    },
+    {
+      path: '/input',
+      name: 'Inp',
+      component: Inp
     }
   ]
 })
