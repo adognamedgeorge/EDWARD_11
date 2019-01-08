@@ -16,6 +16,10 @@ import Badg from '@/pages/badge/Badg'
 import Anch from '@/pages/anchor/Anch'
 import Ste from '@/pages/steps/Ste'
 import Inp from '@/pages/input/Inp'
+import Rad from '@/pages/radio/Rad'
+import Che from '@/pages/checkbox/Che'
+import Swi from '@/pages/switch/Swi'
+import Col from '@/pages/table/Col'
 
 Vue.use(Router)
 
@@ -100,6 +104,26 @@ export default new Router({
       path: '/input',
       name: 'Inp',
       component: Inp
+    },
+    {
+      path: '/radio',
+      name: 'Rad',
+      component: Rad
+    },
+    {
+      path: '/checkbox',
+      name: 'Che',
+      component: Che
+    },
+    {
+      path: '/switch',
+      name: 'Swi',
+      component: Swi
+    },
+    {
+      path: '/table',
+      name: 'Col',
+      component: Col
     }
   ]
 })
