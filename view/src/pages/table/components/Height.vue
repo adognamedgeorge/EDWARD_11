@@ -1,32 +1,17 @@
 <template>
   <div>
-    <h3>注意：非 template/render 模式下，需使用 i-table。</h3>
-    <Divider>Table 从 3.2.0 版本开始，支持 slot-scope</Divider>
-    <Table :columns="col" :data="dat"></Table>
     <Divider dashed />
-    <col-stripe></col-stripe>
-    <col-height></col-height>
-    <col-fixed></col-fixed>
-    <col-hfixed></col-hfixed>
+    <Divider orientation="left">通过设置属性 height 给表格指定高度后，会自动固定表头。当纵向内容过多时可以使用</Divider>
+    <Table height="200" :columns="columns1" :data="data1"></Table>
   </div>
 </template>
 
 <script>
-import ColStripe from './components/Stripe'
-import ColHeight from './components/Height'
-import ColFixed from './components/Fixed'
-import ColHfixed from './components/Hfixed'
 export default {
-  name: 'Col',
-  components: {
-    ColStripe,
-    ColHeight,
-    ColFixed,
-    ColHfixed
-  },
+  name: 'ColHeight',
   data () {
     return {
-      col: [
+      columns1: [
         {
           title: 'Name',
           key: 'name'
@@ -44,7 +29,7 @@ export default {
           key: 'date'
         }
       ],
-      dat: [
+      data1: [
         {
           name: 'John Brown',
           age: 18,
@@ -62,6 +47,12 @@ export default {
           age: 30,
           address: 'Sydney No. 1 Lake Park',
           date: '2016-10-02'
+        },
+        {
+          name: 'Jon Snow',
+          age: 26,
+          address: 'Ottawa No. 2 Lake Park',
+          date: '2016-10-04'
         },
         {
           name: 'Jon Snow',

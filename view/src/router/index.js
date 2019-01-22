@@ -20,6 +20,8 @@ import Rad from '@/pages/radio/Rad'
 import Che from '@/pages/checkbox/Che'
 import Swi from '@/pages/switch/Swi'
 import Col from '@/pages/table/Col'
+import Tre from '@/pages/tree/Tre'
+import Ale from '@/pages/alert/Ale'
 
 Vue.use(Router)
 
@@ -124,6 +126,25 @@ export default new Router({
       path: '/table',
       name: 'Col',
       component: Col
+    },
+    {
+      path: '/tree',
+      name: 'Tre',
+      component: Tre
+    },
+    {
+      path: '/alert',
+      name: 'Ale',
+      component: Ale
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: () => import('@/wms/Login'),
+      meta: {
+        ignoreLoginAuth: true,
+        title: '登录'
+      }
     }
   ]
 })
